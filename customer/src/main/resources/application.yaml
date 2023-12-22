@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customer
+    username: customer
+    password: Customer@123
+    driver-class-name: org.postgresql.Driver
